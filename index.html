@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Music Player</title>
+
+      <!--ADICIONANDO UM FAVICON-->
+      <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+
+      <!--LINKANDO CSS-->
+      <link rel="stylesheet" type="text/css" href="style.css">
+      
+      <!-- IMPORTANDO ICONES DO FONT AWESOME CDN-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+      <!-- IMPORTANDO FONTE PERSONALIZADA DO GOOGLE FONTS-->
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <main class="main">
+         <p id="logo"><i class="fa fa-music"></i>Music <span>player</span></p>
+
+         <!--- CONTEÚDO DA PARTE ESQUERDA --->
+         <div class="content_left">
+
+            <!--- IMAGEM DA MUSICA --->
+            <img id="music_image">
+            <div class="volume">
+               <p id="volume_button">90</p>
+               <i class="fa fa-volume-up" onclick="mute_sound()" id="volume_icon"></i>
+               <input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume">  
+            </div>
+         </div>
+
+         <!--- CONTEÚDO DA PARTE DIREITA --->
+         <div class="content_right">
+            <div class="list_music">
+               <p id="music_present">1</p>
+               <p>/</p>
+               <p id="total">5</p>
+            </div>
+            
+            <!--- NOME DA MUSICA TITULO E NOME DO ARTISTA --->
+            <p id="title">title.mp3</p>
+            <p id="artist">Artist name</p>
+
+            <!--- CONTEÚDO DO CENTRO --->
+            <div class="center">
+               <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward"></i></button>
+               <button onclick="justplay()" id="play"><i class="fa fa-play"></i></button>
+               <button onclick="next_song()" id="next"><i class="fa fa-step-forward"></i></button>
+            </div>
+
+            <!--- DURÇÃO DA MÚSICA --->
+            <div class="duration">
+               <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()" class="slider">
+            </div>
+            <button id="auto" onclick="autoplay_switch()">Auto play <i class="fa fa-circle-o-notch"></i></button>
+         </div>
+      </main>
+
+      <!--- LINKANDO O JAVASCRIPT --->
+      <script src="script.js"></script>
+   </body>
+</html>
