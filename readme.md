@@ -6,8 +6,7 @@
 
 ## 📝 Descrição
 
-Um modelo de player de música, desenvolvido em javascript, o mesmo faz o uso de músicas
-no copyright.
+Um modelo de player de música, desenvolvido em javascript, o mesmo faz o uso de músicas sem direitos autorais.
 
 - Versão Final: [Music-Player](https://marcelo-abreeu.github.io/Music-Player/)
 
@@ -16,8 +15,8 @@ no copyright.
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
-- CSS
-- JAVASCRIPT
+- Css
+- Javascript
 
 ## 📚 Bibliotecas
 
