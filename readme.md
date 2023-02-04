@@ -16,7 +16,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - Css
-- Javascript
+- JavaScript
 
 ## 📚 Bibliotecas
 
