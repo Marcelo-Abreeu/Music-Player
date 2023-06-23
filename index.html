@@ -19,7 +19,14 @@
    </head>
    <body>
       <main class="main">
-         <p id="logo"><i class="fa fa-music"></i>Music <span>player</span></p>
+         <nav>
+            <p id="logo"><i class="fa fa-music"></i>Music <span>player</span></p>
+            <div class="list_music">
+               <p id="music_present">1</p>
+               <p>/</p>
+               <p id="total">5</p>
+            </div>
+         </nav>
 
          <!--- CONTEÚDO DA PARTE ESQUERDA --->
          <div class="content_left">
@@ -35,12 +42,8 @@
 
          <!--- CONTEÚDO DA PARTE DIREITA --->
          <div class="content_right">
-            <div class="list_music">
-               <p id="music_present">1</p>
-               <p>/</p>
-               <p id="total">5</p>
-            </div>
-            
+            <div class="right">
+                 
             <!--- NOME DA MUSICA TITULO E NOME DO ARTISTA --->
             <p id="title">title.mp3</p>
             <p id="artist">Artist name</p>
@@ -57,6 +60,8 @@
                <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()" class="slider">
             </div>
             <button id="auto" onclick="autoplay_switch()">Auto play <i class="fa fa-circle-o-notch"></i></button>
+            </div>
+          
          </div>
       </main>
 
