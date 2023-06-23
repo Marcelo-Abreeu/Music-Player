@@ -33,7 +33,7 @@ let All_song = [{
 	{
 		name: "Nevada",
 		path: "music/Nevada.mp3",
-		img: "img/img1.png",
+		img: "img/img2.png",
 		singer: "Vicetone"
 	},
 	{
