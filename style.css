@@ -280,105 +280,75 @@
   bottom: 0%;
   left: 3%;
 }
-  
-@media screen and (max-width: 900px) {
-    .main {
-      position: relative;
-      height: 100%;
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(to right, #161616, #191919);
-      border-radius: 0px;
-  }
-}
 
-@media screen and (max-width: 800px) {
-  .content_right, .content_left {
+@media screen and (max-width: 810px) {
+  .main {
     position: relative;
+    /* height: 100%; */
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
   }
 
   .content_left img {
-    width: 85%;
+    height: auto;
+    width: 90%;
   }
 }
 
-@media screen and (max-width: 500px){
-  #logo {
-    position: absolute;
-    top: 15px;
-  }
-
-  .list_music {
-    position: absolute;
-    top: 11px;
-  }
-
+@media screen and (max-width: 600px){
   .main {
+    position: relative;
+    height: 100%;
+    width: 100%;
     flex-direction: column;
+  }
+
+  .content_right, .content_left {
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  .content_left img {
+    width: 50%;
+    height: 70%;
+    top: 10%;
+    position: relative;
   }
 
   .content_right #title {
     position: absolute;
-    top: -67px;
+    top: 9px;
+  }
+
+  .content_right .center {
+    margin: 10px 0px 0px 0px;
+  }
+
+  .content_right .duration {
+    position: absolute;
+    bottom: 20%;
+  }
+
+  .content_right #auto {
+    font-size: 15px;
+    padding: 10px 10px;
+    margin: 15px auto 0px;
+  }
+
+  .content_right #artist {
+    position: absolute;
+    top: 50px;
   }
 
   .content_left .volume {
     position: absolute;
-    bottom: -52%;
+    bottom: -95%;
   }
-
-  .content_right #artist {
-    position: absolute;
-    top: -30px;
-  }
-
-  .content_right .center {
-    margin: 0px;
-  }
-
-  .content_right .center button {
-    height: 50px;
-    width: 50px;
-  }
-
-  .content_right #auto {
-    font-size: 17px;
-    padding: 7px 10px;
-    margin: 20px auto 0px;
-  }
-
-  .content_right .duration {
-    display: none;
-  }
-
-  .content_right, .content_left {
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    height: auto;
-  }
-
-  .content_left img {
-    transform: translateY(-25%);
 }
 
-  .content_right #title {
-    position: absolute;
-    top: -100px;
-  }
-
-  .content_right #artist {
-    position: absolute;
-    top: -48px;
+@media screen and (max-width: 500px){
+  .content_left img {
+    width: 100%;
+    border-radius: 0px;
   }
 }
