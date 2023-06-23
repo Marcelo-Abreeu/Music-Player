@@ -25,22 +25,22 @@ let track = document.createElement('audio');
 
 // LISTA COM TODAS AS MÚSICAS
 let All_song = [{
+		name: "Stressed Out",
+		path: "music/StressedOut.mp3",
+		img: "img/img1.png",
+		singer: "Twenty One Pilots"
+	},
+	{
 		name: "Nevada",
 		path: "music/Nevada.mp3",
 		img: "img/img1.png",
 		singer: "Vicetone"
 	},
 	{
-		name: "Faded",
-		path: "music/Faded.mp3",
-		img: "img/img2.png",
-		singer: "Alan Walker"
-	},
-	{
-		name: "Pill",
-		path: "music/Pill.mp3",
+		name: "Freaks Slowed",
+		path: "music/Freaks.mp3",
 		img: "img/img3.png",
-		singer: "Emma Sameth"
+		singer: "Surf Curse"
 	},
     {
 		name: "Goosebumps",
@@ -49,10 +49,10 @@ let All_song = [{
 		singer: "Travis Scott"
 	},
     {
-		name: "Sky High",
-		path: "music/Sky-High.mp3",
+		name: "Play K-391",
+		path: "music/Play.mp3",
 		img: "img/img5.png",
-		singer: "Elektronomia"
+		singer: "Alan Walker"
 	}
 
 ];
