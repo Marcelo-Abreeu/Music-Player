@@ -278,25 +278,63 @@
   }
 }
 
-@media screen and (max-width: 700px) {
-  .content_left img {
-    width: 100%;
-    margin-left: 20px;
+@media screen and (max-width: 500px){
+  #logo {
+    position: absolute;
+    top: 15px;
   }
-}
 
-@media screen and (max-width: 700px) {
-  body {
-    background: linear-gradient(to right, #161616, #191919);
+  .list_music {
+    position: absolute;
+    top: 11px;
   }
 
   .main {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
-  .content_left img {
-    width: auto;
-    margin: 0px;
-    object-fit: cover;
+  .content_right #title {
+    position: absolute;
+    top: -67px;
   }
+
+  .content_left .volume {
+    position: absolute;
+    bottom: -52%;
+  }
+
+  .content_right #artist {
+    position: absolute;
+    top: -30px;
+  }
+
+  .content_right .center {
+    margin: 0px;
+  }
+
+  .content_right .center button {
+    height: 50px;
+    width: 50px;
+  }
+
+  .content_right #auto {
+    font-size: 17px;
+    padding: 7px 10px;
+    margin: 20px auto 0px;
+  }
+
+  .content_right .duration {
+    display: none;
+  }
+
+  .content_right, .content_left {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: auto;
 }
+}
+  
