@@ -335,6 +335,20 @@
     justify-content: space-between;
     flex-direction: column;
     height: auto;
+  }
+
+  .content_left img {
+    transform: translateY(-25%);
 }
+
+  .content_right #title {
+    position: absolute;
+    top: -100px;
+  }
+
+  .content_right #artist {
+    position: absolute;
+    top: -48px;
+  }
 }
   
