@@ -25,10 +25,10 @@ let track = document.createElement('audio');
 
 // LISTA COM TODAS AS MÚSICAS
 let All_song = [{
-		name: "Stressed Out",
-		path: "music/StressedOut.mp3",
+		name: "Pretty isn't Pretty",
+		path: "music/pretty.mp3",
 		img: "img/img1.png",
-		singer: "Twenty One Pilots"
+		singer: "Olivia Rodrigo"
 	},
 	{
 		name: "Nevada",
